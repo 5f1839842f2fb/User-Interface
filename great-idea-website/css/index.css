@@ -64,3 +64,23 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 50%;
+	margin: auto;
+}
+ul{
+	display: inline-block;
+}
+a {
+	display: inline-block;
+	height: auto;
+	width: auto;
+	margin: 25px 35px;
+	color: lightgray;
+	text-decoration: none;
+	text-align: center;
+}
+.logo {
+	float: right;
+	margin-top: 14px;
+}
