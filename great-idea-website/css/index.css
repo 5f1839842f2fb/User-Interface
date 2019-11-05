@@ -65,13 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body{
-	width: 50%;
+	max-width: 1000px;
 	margin: auto;
 }
 ul{
 	display: inline-block;
 }
-a {
+ul a {
 	display: inline-block;
 	height: auto;
 	width: auto;
@@ -80,7 +80,39 @@ a {
 	text-decoration: none;
 	text-align: center;
 }
+ul a:visited {
+	color: lightgray;
+}
 .logo {
 	float: right;
 	margin-top: 14px;
+}
+header {
+	padding: 25px 0;
+}
+#left-header {
+	float: left;
+	margin: 50px 100px;
+}
+h1{
+	display: inline-block;
+	text-align: center;
+	font-size: 72px;
+}
+#get-started-button{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid;
+	width: 150px;
+	height: 30px;
+	line-height: 27px;
+	margin: auto;
+}
+#get-started-button:visited {
+	color: black;
+}
+#headerimg {
+	display: inline-block;
+	
 }
