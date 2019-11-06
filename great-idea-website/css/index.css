@@ -68,6 +68,13 @@ body{
 	max-width: 876px;
 	margin: auto;
 }
+#stickynav {
+	background-color: rgb(42, 160, 160);
+	border: outset grey;
+	width: 876px;
+	position: fixed;
+	top: 0;
+}
 ul{
 	display: inline-block;
 }
@@ -92,6 +99,7 @@ ul a:active {
 }
 header {
 	padding: 25px 0;
+	padding-top: 80px;
 }
 #left-header {
 	float: left;
