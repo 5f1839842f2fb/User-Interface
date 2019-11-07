@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	max-width: 876px;
+	margin: auto;
+}
+ul{
+	display: inline-block;
+}
+ul a, ul a:visited {
+	display: inline-block;
+	height: auto;
+	width: auto;
+	margin: 25px 30px;
+	color: lightgray;
+	text-decoration: none;
+	text-align: center;
+}
+ul a:hover {
+	color: black;
+}
+ul a:active {
+	color: teal;
+}
+.logo {
+	float: right;
+	margin-top: 14px;
+}
+header {
+	padding: 25px 0;
+}
+#left-header {
+	float: left;
+	margin: 50px 100px;
+}
+h1{
+	display: inline-block;
+	text-align: center;
+	font-size: 72px;
+}
+#get-started-button, #get-started-button:visited{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	border: 1px solid;
+	width: 150px;
+	height: 30px;
+	line-height: 27px;
+	margin: auto;
+}
+#get-started-button:hover {
+	background-color: black;
+	color:white;
+}
+#get-started-button:active {
+	background-color: grey;
+}
+}
+#headerimg {
+	display: inline-block;
+}
+#lower-section{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 20px 0;
+}
+.split-paragraphs {
+	display: inline-block;
+	width: 47%;
+	margin: 1% 1%;
+}
+.middle-img {
+	padding: inherit;
+}
+.triple-split-paragraphs {
+	display: inline-block;
+	width: 31%;
+	margin: 1% 1%;
+}
+footer {
+	padding: 30px 0;
+}
+span {
+	display: block;
+	line-height: 18px;
+}
+.copyright{
+	font-size: 13px;
+	margin: 50px 41%;
+}
