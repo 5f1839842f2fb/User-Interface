@@ -69,8 +69,8 @@ body{
 	margin: auto;
 }
 #stickynav {
-	background-color: rgb(42, 160, 160);
-	border: outset grey;
+	background-color: white;
+	border: 1px solid grey;
 	width: 876px;
 	position: fixed;
 	top: 0;
